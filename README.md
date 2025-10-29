@@ -35,7 +35,7 @@ This tool is built for lab use, tool validation, and result-parity analysis — 
 ```bash
 python3 compare_scanner_results.py
 # then enter the target host when prompted
-````
+
 
 **Example output**
 
