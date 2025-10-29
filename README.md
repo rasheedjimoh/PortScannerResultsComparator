@@ -1,7 +1,8 @@
 # 🔁 Port Scanner Results Comparator (Python)
 
 ## Overview
-A concise Python utility that runs multiple port scanners (`nmap`, `masscan`, `recon-ng`) against a single target and **compares the results** to highlight overlaps and discrepancies.  
+A concise Python utility that runs multiple port scanners (`nmap`, `masscan`, `recon-ng`) against a single target and **compares the results** to highlight overlaps and discrepancies.
+
 This tool is built for lab use, tool validation, and result-parity analysis — useful when you want to know *which scanners agree* on open ports and where differences occur.
 
 ---
