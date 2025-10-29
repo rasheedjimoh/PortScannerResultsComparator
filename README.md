@@ -2,7 +2,6 @@
 
 ## Overview
 A concise Python utility that runs multiple port scanners (`nmap`, `masscan`, `recon-ng`) against a single target and **compares the results** to highlight overlaps and discrepancies.  
-
 This tool is built for lab use, tool validation, and result-parity analysis — useful when you want to know *which scanners agree* on open ports and where differences occur.
 
 ---
@@ -35,7 +34,7 @@ This tool is built for lab use, tool validation, and result-parity analysis — 
 ```bash
 python3 compare_scanner_results.py
 # then enter the target host when prompted
-
+````
 
 **Example output**
 
@@ -70,12 +69,12 @@ This script is intentionally simple and readable — a practical starting point 
 
 ---
 
-
 **Author:** Rasheed Jimoh
 
 **Language:** Python 3
 
 **Intended use:** Tool comparison, lab benchmarking, authorized security testing only.
+
 
 
 
